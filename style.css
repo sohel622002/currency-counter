@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #131313;
+}
+
+.currency-counter-wrapper h1{
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container form{
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+}
+
+.container form .row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container form .row > *{
+    flex: 1;
+}
+
+.note-wrapper{
+    width: 200px;
+}
+
+.note-wrapper > img{
+    height: 50px;
+    object-fit: contain;
+}
+
+.note-numbers input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.per-note-value{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ans-container{
+    margin-top: 20px;
+}
+
+.ans-container h2{
+    padding: 10px;
+}
